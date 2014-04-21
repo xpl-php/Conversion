@@ -1,0 +1,24 @@
+{
+	"name": "phpf/conversion",
+	"type": "library",
+	"description": "Unit and temperature conversion library.",
+	"keywords": ["Conversion", "Convert", "Converter", "Unit", "Temperature", "Mass"],
+	"homepage": "https://github.com/phpf/Conversion",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "The PHPf Developer",
+			"email": "wellspeterson@live.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3"
+	},
+	"autoload": {
+		"files": ["bootstrap.php"],
+		"psr-4": {
+			"Phpf\\Conversion\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
